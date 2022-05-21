@@ -1,0 +1,19 @@
+Meta-learning
+->protonet
+->simpleshot (Simpleshot: Revisiting nearest-neighbor
+classification for few-shot learning)
+->bdcspn (Prototype rectification for few-shot learning)
+
+Non-meta learning
+
+->baseline (A closer look at few-shot classification,
+in International Conference on Learning Representations)
+
+->pt_map
+
+->tim
+
+->entropy_min (A BASELINE FOR FEW-SHOT
+IMAGE CLASSIFICATION)
+
+-> laplacianshot (Laplacian regularized few-shot learning)

@@ -1,0 +1,20 @@
+# to create conda environment
+conda create --name Realistic_Transductive_Few_Shot  python=3.8.3 --file requirements.txt
+
+##########IMPORTANT###########
+conda_requirements.txt for installing conda related packages
+requirements_copy.txt for install python related packages
+
+#activate conda environment
+conda activate Realistic_Transductive_Few_Shot 
+
+# To create requirement.txt
+pip freeze > filename.txt
+
+#torch and vision 
+pip install https://download.pytorch.org/whl/cu101/torch-1.4.0-cp38-cp38-win_amd64.whl
+
+pip install https://download.pytorch.org/whl/cu101/torchvision-0.5.0-cp38-cp38-win_amd64.whl
+
+#visdom_logger
+pip install git+https://github.com/luizgh/visdom_logger.git

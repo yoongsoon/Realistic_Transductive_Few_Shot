@@ -1,0 +1,6 @@
+*.jpg
+*.pyc
+*.log
+data/mini_imagenet/.DS_Store
+*.tar
+*.plk

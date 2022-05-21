@@ -1,0 +1,6 @@
+# conda install --file <name_of_this_textfile>
+
+#_libgcc_mutex=0.1=main
+#_pytorch_select=0.2=gpu_0
+cudnn=7.6.5=cuda10.1_0
+intel-openmp=2020.2=254

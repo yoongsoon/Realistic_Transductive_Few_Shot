@@ -27,7 +27,7 @@ OPTIM:
 DATA:
     dataset: 'mini'
     dataset_path: 'data/mini_imagenet'
-    batch_size_loader: 256
+    batch_size_loader: 50 #256
     enlarge: True
     num_workers: 4
     disable_random_resize: False
@@ -39,7 +39,7 @@ DATA:
 
 EVAL:
     evaluate: True      # Set to True to evaluate methods
-    number_tasks: 10000 # Number of tasks to evaluate
+    number_tasks: 10 #10000 # Number of tasks to evaluate 
     batch_size: 1
     n_ways: 5
     n_query: 15 # Balanced case: 15 query data per class
@@ -47,7 +47,7 @@ EVAL:
     alpha_dirichlet: 2
     model_tag: 'best'
     plt_metrics: ['accs']
-    shots: [1,5,10,20]
+    shots: [1,5] # [1,5,10,20]
     used_set: 'test'
     fresh_start: False
 

@@ -3,7 +3,7 @@ METHOD:
   temp: 15
   loss_weights: [1.0, 1.0, 1.0]  # [Xent, H(Y), H(Y|X)]
   lr_alpha_tim: 1e-4
-  iter: 1000
+  iter: 1000 #1000 # number of passes, each pass using [batch size] number of examples. To be clear, one pass = one forward pass + one backward pass (we do not count the forward pass and backward pass as two different passes).
   entropies: ['Shannon', 'Alpha', 'Alpha'] # [Xent, H(Y), H(Y|X)]
   alpha_values: [5.0, 5.0, 5.0] # [Xent, H(Y), H(Y|X)]
   use_tuned_alpha_values: True
